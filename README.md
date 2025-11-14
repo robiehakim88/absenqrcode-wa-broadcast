@@ -65,36 +65,32 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-## Aplikasi Ranting NU
+## Aplikasi Absensi Barcode dan Broadcast WA ke Orangtua
 
-  Aplikasi ini dibuat untuk membantu para pengelola kegiatan NU di tingkat Ranting. Selama ini proses dokumentasi dan arsip masih dilakukan manual, sehingga ketika berkas yang dicari terkadang sudah tidak ada maka untuk periode kepengurusan berikutnya akan kesulitan melacak kegiatan apa saja dan dokumentasi terkait apa saja yang bisa digunakan ulang. Maka dari itu aplikasi sederhana ini membantu mengarsipkan setiap kegiatan yang ada ditingkat Ranting yang nantinya akan digunakan sebagai wujud pertanggungjawaban baik pengelolaan dana, kegiatan, surat menyurat, dan data pendukung lainnya.
+  Aplikasi ini dibuat untuk membantu para pengelola absensi kedatangan siswa dengan scan qrcode ketika mereka datang menggunakan kamera hp yang terhubung ke aplikasi.
 
 ## Requirements
 - [PHP >= 8.2](http://php.net/)
 - [Laravel Framework](https://github.com/laravel/framework)  
 
 ## Fitur Aplikasi
-1. Mengelola Data Anggota (data utama, peran anggota, dan menejemen peran anggota)
-2. Mengelola Data Keuangan (pemasukan dana, pengeluaran dana, laporan bulanan, laporan tahunan)
-3. Mengelola Data Kegiatan (termasuk lampiran foto)
-4. Mengelola Data Masjid dan Musholla (titik koordinat masjid dan musholla, imam sholat taraweh setiap tahunnya)
-5. Mengelola Data Anak Yatim Piatu (kriteria penerima)
-6. Mengelola Data Surat Menyurat (surat masuk, surat keluar)
-7. Mengelola RAB (Rencana Anggaran Biaya)
-8. Mengelola Buku Tamu Digital
-9. Laporan statistik setiap pengelolaan data
-10. Cetak PDF setiap pengelolaan data, termasuk bukti transaksi penerimaan keuangan, piagam penghargaan untuk anggota yang telah selesai menjalankan peran di kepengurusan)
+1. Mengelola Data Siswa
+2. Mengelola Rekap Absen
+3. Mengelola Data Kelas
+4. Halaman Admin
+5. halaman Petugas
+6. Halaman Wali Kelas
 
 <h2 id="download">💻 Install</h2>
 
 1. Clone repository
 
 ```bash
-    git clone https://github.com/robiehakim88/rantingnu-apps.git
+    git clone https://git@github.com:robiehakim88/absenqrcode-wa-broadcast.git
 ```
 
 ```bash
-    cd rantingnu-apps
+    cd absenqrcode-wa-broadcast
 ```
 
 ```bash
